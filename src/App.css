@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
